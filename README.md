@@ -1,2 +1,4 @@
 # hello-world
-# change 1
+
+Hi, I'm TH
+It is my first time to learn git and github.
