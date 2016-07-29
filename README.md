@@ -6,3 +6,7 @@
     > It's so cool
 
 + Hobbies
+    - Yoga
+    - Swimming
+    - Japanese
+
