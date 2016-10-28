@@ -12,12 +12,18 @@ This project is used for learning Git!
 
 1. git reset
 	+ what is the difference between _--hard_ and _--soft_?
-	+ example:
+	+ example: redo commit
 	```
 	$ git commit ...
-        $ git reset --soft HEAD^      (1)
-        $ edit                        (2)
-        $ git commit -a -c ORIG_HEAD  (3)
+	$ git reset --soft HEAD^      (1)
+	$ edit                        (2)
+	$ git commit -a -c ORIG_HEAD  (3)
+	```
+	+ example: undo merge or undo pull
+	```
+	// undo merge
+	$ git pull . {remote_branch}
+	$ git reset --hard ORIG_HEAD
 	```
 
 	
